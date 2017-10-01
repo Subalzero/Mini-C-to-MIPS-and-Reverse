@@ -7,7 +7,7 @@ Grammar rules for MIPS input:
 
     program -> stmts
   
-    stmts -> stmt stmts
+    stmts -> stmts stmt
   
     stmt -> label: stmts |
   
