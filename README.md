@@ -11,29 +11,29 @@ Grammar rules for MIPS input:
 
     stmt -> label: stmts |
 
-        li  ,reg1, reg2, num |
+        li  reg, reg, num |
         
-        addi  ,reg1, reg2, num |
+        addi  reg, reg, num |
         
-        andi  ,reg1, reg2, num |
+        andi  reg, reg, num |
         
-        ori  ,reg1, reg2, num |
+        ori  reg, reg, num |
         
-        xori  ,reg1, reg2, num |
+        xori  reg, reg, num |
         
-        add  ,reg1, reg2, reg3 |
+        add  reg, reg, reg |
         
-        sub  ,reg1, reg2, reg3 |
+        sub  reg, reg, reg |
         
-        mult ,reg1, reg2, reg3 |
+        mult reg, reg, reg |
         
-        div  ,reg1, reg2, reg3 |
+        div  reg, reg, reg |
         
-        and  ,reg1, reg2, reg3 |
+        and  reg, reg, reg |
         
-        or  ,reg1, reg2, reg3 |
+        or  reg, reg, reg |
         
-        xor  ,reg1, reg2, reg3 |
+        xor  reg, reg, reg |
         
         j label
         
